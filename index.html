@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReFactory</title>
+</head>
+
+<body>
+
+  <!-- Splash page -->
+  <div id="splash">
+    <div class="container">
+      <h1><b>Refactory</b></h1>
+      <div class="p">
+        <p>Welcome to our Factory game, created for team week at Epicodus! </p>
+        <p>These are the controls:</p>
+        <ul>
+          <li>Move with the arrow keys</li>
+          <li>Click on a square to mine the square</li>
+          <li>With Miner or Smelter selected, click where you want to place</li>
+          <li>Press the 0 key to cycle between equipped tools or choose from the list above the HUD</li>
+        </ul>
+        <p>Project created by: Ash, David, Geof, Jonah, Levi, Louie</p>
+        <button id="hideSplash" class="btn btn-dark">Click here to hide this page and play the game!</button>
+      </div>
+    </div>
+  </div>
+  <div id="hud">
+  </div>
+  <div id="tools">
+    <button id="Hand">Hand</button>
+    <button id="Pickaxe">Pick</button>
+    <button id="Axe">Axe</button>
+    <button id="Miner">Miner</button>
+    <button id="Smelter">Smelter</button>
+  </div>
+  <div id="gameworld"></div>
+  <!-- SMELTER -->
+  <div id="smelter-container">
+    <button id="smelter-close">X</button>
+    <div id="title-smelt">What would you like to smelt:</div>
+    <div id="smelt-buttons">
+      <button id="tree">Tree</button>
+      <button id="copper">Copper</button>
+      <button id="iron">Iron</button>
+      <button id="gold">Gold</button>
+    </div>
+  </div>
+  <!-- Vendor -->
+  <div id="vendor-container">
+    <button id="vendor-close">X</button>
+    <div id="buy">
+        <div id="title-vendor">What would you like to buy:</div>
+        <button id="tree">Tree</button>
+        <button id="copperIngot">Copper Ingot</button>
+        <button id="ironIngot">Iron Ingot</button>
+        <button id="goldIngot">Gold Ingot</button>
+    </div>
+    <div id="sell">
+        <div id="title-vendor">What would you like to sell:</div>
+        <button id="tree">Tree</button>
+        <button id="copperIngot">Copper Ingot</button>
+        <button id="ironIngot">Iron Ingot</button>
+        <button id="goldIngot">Gold Ingot</button>
+    </div>
+  </div>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
